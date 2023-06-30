@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SHOP</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="ri-home-heart-fill"></i><span>LizBella</span>
+        </a>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            
+        </ul>
+        <div class="main">
+            <a href="#" class="user"><i class="ri-user-fill"></i>Sign in</a>
+            <li id="lg-bag"><a href="buy.html"><img src="image/ICONS/cart1.png" alt=""></a>
+            <span id="cartCounter" class="cart-counter"></span></a></li>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <section id="page-header">
+        <h2>#Shop with Tom</h2>
+        <p>Save More & Get your products delivered</p>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <div class="pro-container">
+            <div class="pro">
+                <img class="pro-image" src="image/shoe1.jpg" alt="">
+                <div class="des">
+                    <span class="pro-name">BROWN SHOE</span> <!--brand name-->
+                    <h5>Men shoes</h5><!--products name-->
+                    <h4 class="pro-price">KES:2000</h4>
+                </div>
+                <button class="products" onclick="addItemToCart(this)">Buy Now</button>
+            </div>
+
+            <div class="pro">
+                <img class="pro-image" src="image/shoe2.jpg" alt="">
+                <div class="des">
+                    <span class="pro-name">ADIDAS</span> <!--brand name-->
+                    <h5>sneakers</h5><!--products name-->
+                    <h4 class="pro-price">KES:2500</h4>
+                </div>
+                <button class="products" onclick="addItemToCart(this)">Buy Now</button>
+            </div>
+
+            <div class="pro">
+                <img class="pro-image" src="image/shoe3.jpg" alt="">
+                <div class="des">
+                    <span class="pro-name">NIKE</span> <!--brand name-->
+                    <h5>Men shoes</h5><!--products name-->
+                    <h4 class="pro-price">KES:3000</h4>
+                </div>
+                <button class="products" onclick="addItemToCart(this)">Buy Now</button>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct.html';">
+                <img class="pro-image" src="image/shoe4.jpg" alt="">
+                <div class="des">
+                    <span class="pro-name">Adidas</span> <!--brand name-->
+                    <h5>Ladies shoes</h5><!--products name-->
+                    <h4 class="pro-price">KES:5000</h4>
+                </div>
+                <button class="products" onclick="addItemToCart(this)">Buy Now</button>
+            </div>
+
+            <div class="pro">
+                <img class="pro-image" src="image/shoe5.jpg" alt="">
+                <div class="des">
+                    <span class="pro-name">AIR FORCE</span> <!--brand name-->
+                    <h5>Men shoes</h5><!--products name-->
+                    <h4 class="pro-price">KES:6000</h4>
+                </div>
+                <button class="products" onclick="addItemToCart(this)">Buy Now</button>
+            </div>
+
+            <div class="pro">
+                <img class="pro-image" src="image/shoe6.jpg" alt="">
+                <div class="des">
+                    <span class="pro-name">ADIDAS</span> <!--brand name-->
+                    <h5>Men sneakers</h5><!--products name-->
+                    <h4 class="pro-price">KES:1000</h4>
+                </div>
+                <button class="products" onclick="addItemToCart(this)">Buy Now</button>
+            </div>
+
+            <div class="pro">
+                <img class="pro-image" src="image/shoe7.jpg" alt="">
+                <div class="des">
+                    <span class="pro-name">PUMA</span> <!--brand name-->
+                    <h5>sneakers</h5><!--products name-->
+                    <h4 class="pro-price">KES:1500</h4>
+                </div>
+                <button class="products" onclick="addItemToCart(this)">Buy Now</button>
+            </div>
+
+            <div class="pro">
+                <img class="pro-image" src="image/shoe8.jpg" alt="">
+                <div class="des">
+                    <span class="pro-name">BLACK LOPHAS</span> <!--brand name-->
+                    <h5>Men shoes</h5><!--products name-->
+                    <h4 class="pro-price">KES:2600</h4>
+                </div>
+                <button class="products" onclick="addItemToCart(this)">Buy Now</button>
+            </div>
+
+            <div class="pro">
+                <img class="pro-image" src="image/shoe9.jpg" alt="">
+                <div class="des">
+                    <span class="pro-name">NIKE</span> <!--brand name-->
+                    <h5>sneakers</h5><!--products name-->
+                    <h4 class="pro-price">KES:3500</h4>
+                </div>
+                <button class="products" onclick="addItemToCart(this)">Buy Now</button>
+            </div>
+
+            <div class="pro">
+                <img class="pro-image" src="image/3shoe.jpg" alt="">
+                <div class="des">
+                    <span class="pro-name">SANDALS</span> <!--brand name-->
+                    <h5>Ladies shoes</h5><!--products name-->
+                    <h4 class="pro-price">KES:800</h4>
+                </div>
+                <button class="products" onclick="addItemToCart(this)">Buy Now</button>
+            </div>
+
+            <div class="pro">
+                <img class="pro-image" src="image/shoe3.jpg" alt="">
+                <div class="des">
+                    <span class="pro-name">NIKE</span> <!--brand name-->
+                    <h5>Men shoes</h5><!--products name-->
+                    <h4 class="pro-price">KES:3000</h4>
+                </div>
+                <button class="products" onclick="addItemToCart(this)">Buy Now</button>
+            </div>
+
+            <div class="pro">
+                <img class="pro-image" src="image/shoe4.jpg" alt="">
+                <div class="des">
+                    <span class="pro-name">Adidas</span> <!--brand name-->
+                    <h5>Ladies shoes</h5><!--products name-->
+                    <h4 class="pro-price">KES:5000</h4>
+                </div>
+                <button class="products" onclick="addItemToCart(this)">Buy Now</button>
+            </div>
+
+            <div class="pro">
+                <img class="pro-image" src="image/shoe5.jpg" alt="">
+                <div class="des">
+                    <span class="pro-name">AIR FORCE</span> <!--brand name-->
+                    <h5>Men shoes</h5><!--products name-->
+                    <h4 class="pro-price">KES:6000</h4>
+                </div>
+                <button class="products" onclick="addItemToCart(this)">Buy Now</button>
+            </div>
+
+            <div class="pro">
+                <img class="pro-image" src="image/shoe6.jpg" alt="">
+                <div class="des">
+                    <span class="pro-name">ADIDAS</span> <!--brand name-->
+                    <h5>Men sneakers</h5><!--products name-->
+                    <h4 class="pro-price">KES:1000</h4>
+                </div>
+                <button class="products" onclick="addItemToCart(this)">Buy Now</button>
+            </div>
+
+            <div class="pro">
+                <img class="pro-image" src="image/shoe7.jpg" alt="">
+                <div class="des">
+                    <span class="pro-name">PUMA</span> <!--brand name-->
+                    <h5>sneakers</h5><!--products name-->
+                    <h4 class="pro-price">KES:1500</h4>
+                </div>
+                <button class="products" onclick="addItemToCart(this)">Buy Now</button>
+            </div>
+
+            <div class="pro">
+                <img class="pro-image" src="image/shoe8.jpg" alt="">
+                <div class="des">
+                    <span class="pro-name">BLACK LOPHAS</span> <!--brand name-->
+                    <h5>Men shoes</h5><!--products name-->
+                    <h4 class="pro-price">KES:2600</h4>
+                </div>
+                <button class="products" onclick="addItemToCart(this)">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <div id="cartAlert" class="cart-alert">
+        <p>Product Already exist in the Cart!</p>
+      </div>
+
+     <!-- Pop-up structure -->
+     <div class="popup-overlay">
+        <div class="popup-content">
+          <span class="close-button" onclick="removeCartItem(this)">&times;</span>
+          <h3 id="popup-heading">Product Added to the Cart</h3>
+          <div id="popup-image"></div>
+          <p id="popup-title"></p>
+          <p id="popup-price"></p>
+          <div class="button-container">
+          <button id="continue-shopping-btn" onclick="continueShoppingClicked(this)">Continue Shopping</button>
+          <button id="proceed-to-cart-btn" onclick="proceedToCartClicked(this)">Proceed to Cart</button>
+          </div>
+        </div>
+    </div>
+
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign up for Newsletters</h4>
+            <p>Get E-mail updates about <span>Our latest products</span> and <span>Special Offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <div class="logo">LIZBELLA</div>
+            <h4>Contacts</h4>
+            <p><strong>Address:</strong> 00200 ,NAIROBI</p>
+            <p><strong>Phone:</strong> 0726680167</p>
+            <p><strong>Email:</strong> lizbella23@gmail.com</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="about.html">About us</a>
+                <a href="">Delivery information</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Terms & Conditions</a>
+                <a href="contact.html">Contact us</a>
+            </div>
+            <div class="col">
+                <h4>My account</h4>
+                <a href="">Sign in</a>
+                <a href="buy.html">view cart</a>
+                <a href="">My wishlist</a>
+                <a href="">Track my order</a>
+                <a href="contact.html">Help</a>
+
+            </div>
+        <div class="copyright">
+            <p>@2023.lizbella collection</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
